@@ -5,6 +5,7 @@ This repo provides a fully documented, Colab-ready workflow for fine-tuning open
 ### What's inside
 
 - `notebooks/colab_qlora_finetune.ipynb` — the main Colab notebook that automates data prep, QLoRA training, evaluation, and export.
+- `notebooks/colab_lora_finetune.ipynb` — a full-precision LoRA workflow for users who prefer standard mixed-precision training without bitsandbytes.
 - `README.md` (this file) — deep-dives on prerequisites, how to customize the notebook, and troubleshooting tips.
 
 If you just want to run the pipeline, open the notebook directly in Colab (File ▸ Open Notebook ▸ GitHub) or use:
